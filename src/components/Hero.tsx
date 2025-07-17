@@ -25,7 +25,6 @@ const Hero = () => {
     {
         id: 1,
         img: "/banner2.jpg",
-
         title: "Berry Blast",
         mainTitle: "EXPERIENCE FRESH FLAVOURS & CREAMY DELIGHTS",
         price: "From ₹89 Only"
@@ -33,7 +32,6 @@ const Hero = () => {
     {
         id: 2,
         img: "/banner3.jpg",
-
         title: "Deluxe Sundae",
         mainTitle: "TREAT YOURSELF TO LUXURY IN EVERY SCOOP",
         price: "₹149 Only"
