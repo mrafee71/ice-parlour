@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const HeaderTop = () => {
   return (
     <div className='border-b border-gray-200 hidden sm:block px-4 md:px-6 lg:px-8'>
-		<div className="container py-3">
+		<div className="py-3">
 			<div className="flex justify-between items-center">
 				<div className="hidden lg:flex gap-1">
 					<div className="header_top_icon_wrapper text-facebook hover:text-white hover:bg-facebook">

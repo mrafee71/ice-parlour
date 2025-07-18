@@ -9,7 +9,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 const Hello = () => {
   return (
     <div className='border-b border-gray-200 py-6 px-4 md:px-6 lg:px-8'>
-        <div className="container sm:flex justify-between items-center">
+        <div className="sm:flex justify-between items-center">
             <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-red-900">
                 IceParlour
             </div>

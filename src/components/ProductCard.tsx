@@ -112,7 +112,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ img, title, desc, rating, pri
     }
 
   return (
-    <div className='px-4 border border-gray-200 rounded-xl max-w-[400px] '>
+    <div className='px-4 border border-gray-200 rounded-xl max-w-[400px] h-[100%]'>
         <div>
             <Image 
                 className='w-full h-auto'
@@ -127,6 +127,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ img, title, desc, rating, pri
             <h2 className='text-red-400 font-medium uppercase'>{title}</h2>
             <p className='text-gray-500'>{desc}</p>
             <div>{generateRating(rating)}</div>
+            <div className="font-bold flex gap-4">
+                ₹{price}
+                <del className='text-gray-500 font-normal'>₹{parseInt(price) + 50}.00</del>
+            </div>
         </div>
     </div>
   )

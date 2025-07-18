@@ -56,16 +56,16 @@ const productData = [
     title: "Trio Choco Fruit Bars",
     desc: "A premium pack of 3 ice cream bars with raspberry, strawberry, and caramel centers coated in rich chocolate",
     rating: 5,
-    price: "₹249",
+    price: "249",
   },
 ];
 
 const NewProducts = () => {
   return (
-    <div className='px-4 md:px-6 lg:px-8'>
-        <div className="container pt-16 md:pt-20 lg:pt-24">
+    <div className='px-4 md:px-8 lg:px-20'>
+        <div className="pt-16 md:pt-20 lg:pt-24 mx-auto">
             <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-center pb-4 mb-2 md:mb-4 lg:mb-6 xl:mb-8">New Products</h2>
-            <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10">
+            <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {
                     productData.map((item, index) => (
                         <ProductCard key={index} img={item.img} title={item.title} desc={item.desc} rating={item.rating} price={item.price} />
