@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Testimonial = () => {
   return (
-    <div className='px-4 md:px-8 lg:px-20'>
+    <div className='px-4 md:px-8 lg:px-20 pb-4 md:pb-8 lg:pb-16'>
         <div className="pt-16 md:pt-20 lg:pt-24 mx-auto">
             <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl text-center pb-4 mb-2 md:mb-4 lg:mb-6 xl:mb-8'>Testimonials</h2>
             <div className="grid lg:grid-cols-[300px_1fr] gap-4">
@@ -20,7 +20,7 @@ const Testimonial = () => {
                         <p>CEO & Founder</p>
                         <Image
                             className='inline-block py-2'
-                            src='/user.jpeg'
+                            src='/quotes.svg'
                             alt='quote' 
                             width={30}
                             height={30}
@@ -31,7 +31,7 @@ const Testimonial = () => {
                         </p>
                     </div>
                 </div>
-                <div className="bg-red-600 bg-[url(/cta.png)] bg-cover h-[500px] rounded-2xl grid place-items-center">
+                <div className="bg-red-600 bg-[url(/cta.jpg)] bg-cover bg-center h-[500px] rounded-2xl grid place-items-center">
                     <div className='bg-[#ffffffab] min-w-[270px] sm:min-w-[300px] md:min-w-[500px] rounded-xl py-8 sm:px-8 px-2 grid place-items-center gap-3'>
                         <button className='bg-black text-white p-2 rounded-md'>
                             20% Discount
